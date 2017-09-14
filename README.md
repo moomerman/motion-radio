@@ -3,8 +3,9 @@
 
 ## About
 
-motion-radio sits in your system tray and presents a list of streaming radio stations for you to switch between.  
-It integrates with the media keys for iOS so you can pause/play and skip forward/backwards through the list.
+motion-radio sits in your system tray and presents a list of streaming radio stations for you to switch between.
+
+It integrates with the media keys for macOS so you can pause/play and skip forward/backwards through the list of stations.
 
 There is also support for network reachability and the application icon changes color when your network goes down.
 
