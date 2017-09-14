@@ -13,6 +13,9 @@ Motion::Project::App.setup do |app|
   app.info_plist['LSUIElement'] = true
   app.frameworks += ['AVFoundation', 'ServiceManagement']
 
+  app.sdk_version = '10.12'
+  app.deployment_target = '10.12'
+
   app.vendor_project('vendor/SPMediaKeyTap', :static)
 
   app.info_plist['NSMainNibFile'] = 'MainMenu'
