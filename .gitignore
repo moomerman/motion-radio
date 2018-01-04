@@ -2,4 +2,6 @@
 build
 vendor/*/build-*
 vendor/Pods
+vendor/bundle
+.bundle
 resources/*.nib
